@@ -1,0 +1,33 @@
+$primary_color: #ff562d;
+$secondary_color: #605f5e;
+
+nav {
+  .nav-item {
+    .nav-link {
+      padding-bottom: 0.2em;
+      font-size: 1.1em;
+      color: #333 !important;
+    }
+    .disabled {
+      background-image: none !important;
+    }
+    .active {
+      background-image: linear-gradient(
+        120deg,
+        $primary_color 0%,
+        $primary_color 100%
+      );
+      background-repeat: no-repeat;
+      background-size: 100% 0.2em;
+      background-position: 0 88%;
+      transition: background-size 0.25s ease-in;
+      &:hover {
+        background-size: 100% 0.6em;
+        color: #333 !important;
+      }
+    }
+  }
+}
+.avatar {
+  padding-top: 10em;
+}

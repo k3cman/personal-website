@@ -1,0 +1,20 @@
+nav .nav-item .nav-link {
+  padding-bottom: 0.2em;
+  font-size: 1.1em;
+  color: #333 !important; }
+
+nav .nav-item .disabled {
+  background-image: none !important; }
+
+nav .nav-item .active {
+  background-image: linear-gradient(120deg, #ff562d 0%, #ff562d 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in; }
+  nav .nav-item .active:hover {
+    background-size: 100% 0.6em;
+    color: #333 !important; }
+
+.avatar {
+  padding-top: 10em; }
