@@ -1,0 +1,132 @@
+//Custom styles
+// $primary_color: #fc4a1a;
+$primary_color: #ff562d;
+$secondary_color: #605f5e;
+
+nav {
+  width: 100%;
+  .flex-fill {
+    flex: 1;
+  }
+
+  .nav-item {
+    .nav-link {
+      color: $secondary_color !important;
+      padding-bottom: 0.2em;
+      font-size: 1.2em;
+      &:hover {
+        color: #333 !important;
+      }
+    }
+  }
+
+  .slash {
+    color: #333 !important;
+    cursor: context-menu;
+  }
+
+  .nav-custom {
+    &:hover {
+      background-image: linear-gradient(
+        120deg,
+        $primary_color 0%,
+        $primary_color 100%
+      );
+      background-repeat: no-repeat;
+      background-size: 100% 0.2em;
+      background-position: 0 88%;
+      transition: background-size 0.25s ease-in;
+      color: #333 !important;
+    }
+  }
+  .active-nav {
+    background-image: linear-gradient(
+      120deg,
+      $primary_color 0%,
+      $primary_color 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 0.3em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+    color: #333 !important;
+    &:hover {
+      background-size: 100% 0.6em;
+      color: #333 !important;
+    }
+  }
+}
+.head-title {
+  padding-top: 65px;
+}
+#hero {
+  padding-top: 12em;
+}
+#about {
+  text-align: center;
+  ul {
+    margin-right: 30px;
+  }
+  li {
+    list-style: none;
+  }
+}
+#section-1,
+#work {
+  min-height: 100vh;
+}
+#work {
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+  img {
+    width: 100%;
+  }
+}
+#about {
+  .box {
+    border: 1px solid $primary_color;
+    padding: 2em;
+    border-radius: 0.5em;
+  }
+}
+#blog,
+#contact {
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+}
+svg {
+  max-width: 200px;
+  max-height: 200px;
+}
+.svgfill {
+  fill: #ff5931;
+}
+.svglight {
+  fill: #fff;
+}
+#contact {
+  background-color: $primary_color;
+  padding-bottom: 50px;
+  .iconContact {
+    padding: 1em 1em 0 1em;
+  }
+}
+.ReactModalPortal {
+  z-index: 10000;
+}
+.hr {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: $primary_color;
+  height: 20px;
+}
+span .hr {
+  display: block;
+  width: 100%;
+  border-top: 1px solid blue;
+}

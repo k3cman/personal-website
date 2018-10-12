@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+$font-family-monospace: 'PT Mono', monospace;
+$font-family-base: $font-family-monospace;
+$primary: #fc4a1a;
+$secondary: #605f5e;
+$body-bg: #f7f9fa;
+
+@import '../../../node_modules/bootstrap/scss/bootstrap';
