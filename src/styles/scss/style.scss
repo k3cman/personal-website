@@ -26,16 +26,18 @@ nav {
   }
 
   .nav-custom {
+    background-image: linear-gradient(
+      120deg,
+      $primary_color 0%,
+      $primary_color 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+    color: #333 !important;
     &:hover {
-      background-image: linear-gradient(
-        120deg,
-        $primary_color 0%,
-        $primary_color 100%
-      );
-      background-repeat: no-repeat;
-      background-size: 100% 0.2em;
-      background-position: 0 88%;
-      transition: background-size 0.25s ease-in;
+      background-size: 100% 0.8em;
       color: #333 !important;
     }
   }
@@ -46,7 +48,7 @@ nav {
       $primary_color 100%
     );
     background-repeat: no-repeat;
-    background-size: 100% 0.3em;
+    background-size: 100% 0;
     background-position: 0 88%;
     transition: background-size 0.25s ease-in;
     color: #333 !important;
@@ -129,4 +131,13 @@ span .hr {
   display: block;
   width: 100%;
   border-top: 1px solid blue;
+}
+hr {
+  display: block;
+  height: 4px;
+  border-top: 20px solid $primary_color;
+  color: $primary_color;
+  width: 80%;
+  margin: 1em auto;
+  padding: 0;
 }

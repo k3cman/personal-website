@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const NavBar = props => {
   return (
@@ -23,9 +24,9 @@ const NavBar = props => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link active-nav" href="/">
+              <AnchorLink className="nav-link active-nav" href="#section-1">
                 Home
-              </a>
+              </AnchorLink>
             </li>
             <li className="nav-item d-none d-lg-block">
               <a className="nav-link disabled" href="#inactive">
@@ -34,9 +35,9 @@ const NavBar = props => {
             </li>
 
             <li className="nav-item nav-custom">
-              <a className="nav-link" href="#about">
+              <AnchorLink className="nav-link" href="#about">
                 About
-              </a>
+              </AnchorLink>
             </li>
             <li className="nav-item d-none d-lg-block">
               <a className="nav-link disabled" href="#inactive">
@@ -44,9 +45,9 @@ const NavBar = props => {
               </a>
             </li>
             <li className="nav-item nav-custom">
-              <a className="nav-link" href="#work">
+              <AnchorLink className="nav-link" href="#work">
                 My Work
-              </a>
+              </AnchorLink>
             </li>
             <li className="nav-item d-none d-lg-block">
               <a className="nav-link disabled" href="#inactive">
@@ -64,9 +65,9 @@ const NavBar = props => {
               </a>
             </li> */}
             <li className="nav-item nav-custom">
-              <a className="nav-link" href="#contact">
+              <AnchorLink className="nav-link" href="#contact">
                 Get in touch
-              </a>
+              </AnchorLink>
             </li>
           </ul>
         </div>

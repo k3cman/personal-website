@@ -3,7 +3,8 @@ import React, { Fragment } from 'react';
 const HeroSection = props => {
   return (
     <Fragment>
-      <div className="col-12 pb-3 head-title">
+      <hr />
+      <div className="col-12 pb-5 mb-5 head-title">
         <h2>About me</h2>
       </div>
       <div className="col-sm-12 col-md-4 text-center">
@@ -291,7 +292,7 @@ const HeroSection = props => {
           <li>3D vizuelization</li>
         </ul>
       </div>
-      <div className="col-12 pt-3">
+      <div className="col-12 pt-5">
         <p>
           I have a huge passion for creating things, and I like solving
           problems. After 3 years involved in the design jobs, last year I
