@@ -17,6 +17,7 @@ import digitalocean from "../../assets/logos/digitalocean.png";
 import aws from "../../assets/logos/aws.png";
 import heroku from "../../assets/logos/heroku.png";
 import firebase from "../../assets/logos/firebase.png";
+import sass from "../../assets/logos/sass.png";
 
 function AboutMe() {
   return (
@@ -61,7 +62,7 @@ function AboutMe() {
         <img src={jslogo} height="128px" />
       </div>
       <div className="col-sm-6 col-md-2  mt-5 text-center">
-        <img src={bootstraplogo} height="128px" />
+        <img src={sass} height="128px" />
       </div>
       <div className="col-sm-6 col-md-2 offset-md-2 mt-5 text-center">
         <img src={reactlogo} height="128px" />
@@ -74,7 +75,7 @@ function AboutMe() {
         <img src={reduxlogo} height="128px" />
       </div>
       <div className="col-sm-6 col-md-2  mt-5 text-center">
-        <img src={materialLogo} height="110px" />
+        <img src={bootstraplogo} height="110px" />
       </div>
       <div className="col-12 head-title">
         <h3>BACK END</h3>
