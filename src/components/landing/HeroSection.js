@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const HeroSection = props => {
   return (
@@ -7,7 +7,7 @@ const HeroSection = props => {
         <div className="col-sm-12 text-center avatar">
           <img src="assets/avatar.png" alt="avatar" />
           <h1 className="display-4">Front-end Developer & Designer</h1>
-          <h4 className="text-primary">Passion for creating things</h4>
+          <h4 className="text-primary">{`{/* Addicted to creation */}`}</h4>
         </div>
       </div>
     </div>

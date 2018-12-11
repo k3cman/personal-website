@@ -1,6 +1,6 @@
-import React from 'react';
-import { FaBars } from 'react-icons/fa';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import React from "react";
+import { FaBars } from "react-icons/fa";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const NavBar = props => {
   return (
@@ -10,7 +10,7 @@ const NavBar = props => {
           <img src="assets/logo.png" height="40" alt="Kecman.xyz" />
         </a>
         <button
-          style={{ background: 'none', border: 'none', color: 'black' }}
+          style={{ background: "none", border: "none", color: "black" }}
           type="button"
           className="navbar-toggler"
           data-toggle="collapse"
@@ -24,8 +24,8 @@ const NavBar = props => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <AnchorLink className="nav-link active-nav" href="#section-1">
-                Home
+              <AnchorLink className="nav-link active-nav" href="#what-i-do">
+                What I do
               </AnchorLink>
             </li>
             <li className="nav-item d-none d-lg-block">
@@ -34,9 +34,9 @@ const NavBar = props => {
               </a>
             </li>
 
-            <li className="nav-item nav-custom">
-              <AnchorLink className="nav-link" href="#about">
-                About
+            <li className="nav-item">
+              <AnchorLink className="nav-link active-nav" href="#portfolio">
+                Portfolio
               </AnchorLink>
             </li>
             <li className="nav-item d-none d-lg-block">
@@ -44,9 +44,9 @@ const NavBar = props => {
                 /
               </a>
             </li>
-            <li className="nav-item nav-custom">
-              <AnchorLink className="nav-link" href="#work">
-                My Work
+            <li className="nav-item">
+              <AnchorLink className="nav-link active-nav" href="#about-me">
+                About me
               </AnchorLink>
             </li>
             <li className="nav-item d-none d-lg-block">
@@ -54,7 +54,7 @@ const NavBar = props => {
                 /
               </a>
             </li>
-            {/* <li className="nav-item nav-custom">
+            {/* <li className="nav-item">
               <a className="nav-link" href="#blog">
                 Blog
               </a>
@@ -64,8 +64,8 @@ const NavBar = props => {
                 /
               </a>
             </li> */}
-            <li className="nav-item nav-custom">
-              <AnchorLink className="nav-link" href="#contact">
+            <li className="nav-item">
+              <AnchorLink className="nav-link active-nav" href="#contact">
                 Get in touch
               </AnchorLink>
             </li>

@@ -13,7 +13,7 @@ nav {
     .nav-link {
       color: $secondary_color !important;
       padding-bottom: 0.2em;
-      font-size: 1.2em;
+      font-size: 1em;
       &:hover {
         color: #333 !important;
       }
@@ -23,6 +23,12 @@ nav {
   .slash {
     color: #333 !important;
     cursor: context-menu;
+  }
+  .disabled {
+    cursor: context-menu;
+    &:hover {
+      color: $secondary_color !important;
+    }
   }
 
   .nav-custom {
@@ -64,7 +70,10 @@ nav {
 #hero {
   padding-top: 12em;
 }
-#about {
+#about,
+#what-i-do,
+#portfolio,
+#about-me {
   text-align: center;
   ul {
     margin-right: 30px;
@@ -74,7 +83,10 @@ nav {
   }
 }
 #section-1,
-#work {
+#work,
+#what-i-do,
+#portfolio,
+#about-me {
   min-height: 100vh;
 }
 #work {
