@@ -150,7 +150,7 @@ function Portfolio() {
               React/Redux/Node/Express/MySql
             </p>
             <div style={{ display: "flex", justifyContent: "space-around" }}>
-              <a href="https://github.com/k3cman/job-portal">
+              <a href="https://github.com/k3cman/MERN-job-portal">
                 <button
                   type="button"
                   className="btn btn-sm btn-outline-primary"
