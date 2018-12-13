@@ -28,7 +28,6 @@ function AboutMe() {
         <img src={myFace} className="mt-4 mb-4" />
         <h3>Nemanja Kecman</h3>
         <h5>ReactJs | ReactNative | NodeJs</h5>
-        <p>TODO ICONS</p>
         <p>Hi there! I'm Front-end developer specialized in ReactJs.</p>
         <p>
           {" "}
