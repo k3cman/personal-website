@@ -18,6 +18,10 @@ import aws from "../../assets/logos/aws.png";
 import heroku from "../../assets/logos/heroku.png";
 import firebase from "../../assets/logos/firebase.png";
 import sass from "../../assets/logos/sass.png";
+import angular from '../../assets/logos/angular.png'
+import ts from '../../assets/logos/ts.png';
+import rx from '../../assets/logos/Rx_Logo-512-512.png'
+import nest from '../../assets/logos/Logo-NestJS-A-progressive-Node.js-web-framework.png';
 
 function AboutMe() {
   return (
@@ -63,12 +67,21 @@ function AboutMe() {
       <div className="col-sm-6 col-md-2  mt-5 text-center">
         <img src={sass} height="128px" />
       </div>
-      <div className="col-sm-6 col-md-2 offset-md-2 mt-5 text-center">
+      <div className="col-sm-6 col-md-2 offset-md-2  mt-5 text-center">
+        <img src={ts} height="128px" />
+      </div>
+      <div className="col-sm-6 col-md-2  mt-5 text-center">
+        <img src={angular} height="128px" />
+      </div>
+      <div className="col-sm-6 col-md-2 mt-5 text-center">
         <img src={reactlogo} height="128px" />
       </div>
 
       <div className="col-sm-6 col-md-2  mt-5 text-center">
         <img src={rnlogo} height="128px" />
+      </div>
+      <div className="col-sm-6 col-md-2 offset-md-3  mt-5 text-center">
+        <img src={rx} height="128px" />
       </div>
       <div className="col-sm-6 col-md-2  mt-5 text-center">
         <img src={reduxlogo} height="128px" />
@@ -79,13 +92,16 @@ function AboutMe() {
       <div className="col-12 head-title">
         <h3>BACK END</h3>
       </div>
-      <div className="col-sm-6 col-md-3 offset-md-2 mt-5 text-center">
+      <div className="col-sm-6 col-md-2 offset-md-2 mt-5 text-center">
         <img src={nodeJs} height="110px" />
       </div>
-      <div className="col-sm-6 col-md-3  mt-5 text-center">
+      <div className="col-sm-6 col-md-2  mt-5 text-center">
         <img src={expressLogo} height="110px" />
       </div>
-      <div className="col-sm-6 col-md-3  mt-5 text-center mr-5 pr-5">
+      <div className="col-sm-6 col-md-2 mt-5 text-center">
+        <img src={nest} height="110px" />
+      </div>
+      <div className="col-sm-6 col-md-2  mt-5 text-center">
         <img src={restify} height="110px" />
       </div>
       <div className="col-12 head-title">
